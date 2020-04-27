@@ -34,9 +34,8 @@ public class Options {
 	Set<AttemptOption> attemptOption;
 
 	
-	
-	
-	
+
+
 	public Options(Integer id, Double score, String text, Question question) {
 		super();
 		this.id = id;

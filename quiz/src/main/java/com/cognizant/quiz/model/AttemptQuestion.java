@@ -32,6 +32,20 @@ public class AttemptQuestion {
 	Set<AttemptOption> attemptOption;
 	
 	
+	public Set<AttemptOption> getAttemptOption() {
+		return attemptOption;
+	}
+
+
+
+
+	public void setAttemptOption(Set<AttemptOption> attemptOption) {
+		this.attemptOption = attemptOption;
+	}
+
+
+
+
 	public AttemptQuestion() {
 		super();
 	}
